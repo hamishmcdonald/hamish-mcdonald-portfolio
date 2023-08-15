@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Nunito+Sans&display=swap');
+
+body {
+  margin: 0px;
+  background-color: #222745;
+}
+
+#root {
+  font-family: 'Inconsolata', monospace;
+  color: FloralWhite;
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  
+  padding-left: calc(8vw - 10px);
+  padding-right: calc(8vw - 10px);
+}
+
+#profile-picture {
+  display: block;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 157px;
+  margin-top: 45vh;
+}
+
+@media only screen and (min-width: 480px) {
+  #profile-picture {
+    margin-top: 40vh;
+    margin-left: 0px;
+  }
+
+  .flex-content {
+    margin: 0px;
+  }
+}
+
+.red {
+  color: red;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  flex: 50%;
+}
+
+.image-content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 4vw;
+}
+
+.tenure {
+  margin: 0px; 
+}
+
+h1 {
+  font-size: max(2.6vw, 20px);
+}
+
+h2 {
+  font-size: max(2vw, 16px);
+}
+
+h3, h4 {
+  font-size: max(1.7vw, 14px);
+}
+
+h4 {
+  margin-bottom: 0px;
+}
+
+p, li {
+  font-size: max(1.4vw, 12px);
+}
+
+ul {
+  list-style-type: square;
+}
+
