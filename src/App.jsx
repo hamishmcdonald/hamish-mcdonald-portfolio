@@ -155,7 +155,7 @@ function App() {
 
           <h2>Experience</h2>
 
-          <h4>Software Developer at Greek on Soul - Surfers Paradise</h4>
+          <h4>Web Developer at Greek on Soul - Surfers Paradise</h4>
           <p className='tenure'>March 2023 - August 2023</p>
           <ul>
             <li>React.js & Bootstrap</li>
@@ -165,7 +165,7 @@ function App() {
             <li>Git & GitHub</li>
           </ul>
 
-          <h4>Software Developer at Euclideon - Fortitude Valley, Milton</h4>
+          <h4>Intern Software Developer at Euclideon - Fortitude Valley, Milton</h4>
           <p className='tenure'>October 2021 - March 2022</p>
           <ul>
             <li>Network & Hardware Constraints</li>
