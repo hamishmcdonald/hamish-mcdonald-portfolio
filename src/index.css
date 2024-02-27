@@ -25,14 +25,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  width: 157px;
-  margin-top: 45vh;
+  width: 137px;
+  margin-top: 20vh;
 }
 
 @media only screen and (min-width: 480px) {
   #profile-picture {
-    margin-top: 40vh;
+    margin-top: 20vh;
     margin-left: 0px;
+    width: min(22vw, 157px);
   }
 }
 
